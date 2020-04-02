@@ -1,6 +1,16 @@
 {
-    "name": "풀어봐",
+    "name": "puloba",
     "version": "1.0",
+    "author": "Jaewook Ahn",
     "description": "백준 온라인 저지 문제를 쉽게 풀 수 있게 하는 확장 프로그램",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "64": "icon.png",
+        "128": "icon.png"
+    }
 }

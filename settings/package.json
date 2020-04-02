@@ -1,0 +1,43 @@
+{
+  "name": "puloba-settings",
+  "version": "1.0.0",
+  "description": "puloba chrome extension settings page",
+  "author": "Jaewook Ahn",
+  "scripts": {
+    "package": "echo \"Not supported yet!\"",
+    "build": "react-scripts build",
+    "postbuild": "rm -rf ../dist/settings && mkdir -p ../dist && mv build ../dist/settings",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "@types/react": "^16.9.31",
+    "@types/react-dom": "^16.9.6",
+    "@types/styled-components": "^5.0.1",
+    "@types/styled-system": "^5.1.9",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.0.1",
+    "styled-system": "^5.1.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
