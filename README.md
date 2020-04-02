@@ -13,3 +13,7 @@
 ## 만든이
 
 - 안재욱 (Jaewook Ahn) <ajw4586@gmail.com>
+
+## LICENSE
+
+MIT
