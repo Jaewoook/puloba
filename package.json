@@ -1,0 +1,12 @@
+{
+  "name": "puloba",
+  "version": "1.0.0",
+  "description": "puloba Chrome Extension",
+  "main": "index.js",
+  "author": "Jaewook Ahn",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

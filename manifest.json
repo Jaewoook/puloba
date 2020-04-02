@@ -1,0 +1,6 @@
+{
+    "name": "풀어봐",
+    "version": "1.0",
+    "description": "백준 온라인 저지 문제를 쉽게 풀 수 있게 하는 확장 프로그램",
+    "manifest_version": 2
+}
